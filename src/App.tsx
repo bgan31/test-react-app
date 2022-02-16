@@ -6,6 +6,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import About from './About';
+import Home from './Home';
+import Dashboard from './Dashboard';
 
 function App() {
   return (
@@ -41,28 +44,3 @@ function App() {
 }
 
 export default App;
-
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
-
-function About() {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
-  );
-}
-
-function Dashboard() {
-  return (
-    <div>
-      <h2>Dashboard</h2>
-    </div>
-  );
-}
